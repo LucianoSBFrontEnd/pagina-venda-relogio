@@ -25,3 +25,32 @@ header .banner{
 section .title-principal,p{
     color: #fff;
 }
+
+.content-section{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    font-size:3rem;
+    margin: 2rem;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 250px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card i{
+    font-size: 5rem;
+}
+
+
