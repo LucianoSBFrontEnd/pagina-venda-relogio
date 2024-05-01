@@ -17,16 +17,11 @@ body{
     min-height: 100vh;
 }
 
-
-/* container geral  */
-
 .container{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
+
+
 
 /* container title h1 */
 
@@ -46,6 +41,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding: 50px;
 }
 
 .card-img img{
@@ -100,7 +96,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    margin-bottom: 50px;
 }
 
 .caracteristica-card .caract{
@@ -108,7 +105,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
     width: 350px;
     height: 250px;
 
@@ -123,7 +120,6 @@ body{
     margin-top: 10px;
     font-size: 1.2rem;
     font-weight: bold;
-
     color: black;
 }
 
