@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: var(--font);
+    color: white;
 }
+
+:root{
+    --font:"Montserrat", sans-serif;
+}
+
 
 body{
     background-color:rgb(0, 0, 0);
@@ -11,7 +17,124 @@ body{
     min-height: 100vh;
 }
 
-.conteiner{
-    width: 100%;
+
+/* container geral  */
+
+.container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+/* container title h1 */
+
+.container .title-principal{
+    text-align: center;
+    color: #fff;
+    margin: 50px;
+}
+
+/* content-section seçao dos cards */
+
+.content-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.818), rgba(0, 0, 0, 0.744)), url(../imagem/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-img img{
+    width: 30rem;
+}
+
+.cards{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    width: 250px;
+    height: 200px;
+    background-color: #181818c2;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    width: 5rem;
+}
+
+.descricao{
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.text-title{
+    margin: 50px;
+    text-align: center;
+}
+
+.text-title h2{
+    font-size: 3rem;
+}
+
+.text-title p{
+    font-size: 1.3rem
+}
+
+.caracteristica-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.caracteristica-card .caract{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 350px;
+    height: 250px;
+
+    
+    background-color: #cecaca;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.caracteristica-card .caract p{
+    width: 150px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
